@@ -66,25 +66,107 @@
                     <div class="col-md-6 col-md-offset-3">
                         <form class="form-signin" action="" method="post">
                             <div class="control-group col-md-12">
-                                <label class="control-label">Opções</label>
                                 <div class="controls">
-                                    <select class="form-control" multiple>
-                                        <option>Yakissoba - R$29,90</option>
-                                        <option>Carne acebolada - R$29,90</option>
-                                        <option>Yakimeshi - R$29,90</option>
-                                    </select>
+                                    <table class="table table-bordered table-hover table-striped">
+                                        <tr>
+                                            <th style="text-align: center;">Opções</th>
+                                            <th style="text-align: center;">Qtd.</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <select class="form-control" id="pedido-1" name="pedido-1">
+                                                    <option value="">--Selecione--</option>
+                                                    <option value="1">Yakissoba - R$29,90</option>
+                                                    <option value="2">Carne acebolada - R$29,90</option>
+                                                    <option value="3">Yakimeshi - R$29,90</option>
+                                                </select>
+                                            </td>
+                                            <td class="qtdPedido">
+                                                <input type="number" class="form-control" id="qtdPedido-1" name="qtdPedido-1" >
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <select class="form-control" id="pedido-2" name="pedido-2">
+                                                    <option value="">--Selecione--</option>
+                                                    <option value="1">Yakissoba - R$29,90</option>
+                                                    <option value="2">Carne acebolada - R$29,90</option>
+                                                    <option value="3">Yakimeshi - R$29,90</option>
+                                                </select>
+                                            </td>
+                                            <td class="qtdPedido">
+                                                <input type="number" class="form-control" id="qtdPedido-2" name="qtdPedido-2" >
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <select class="form-control" id="pedido-3" name="pedido-3">
+                                                    <option value="">--Selecione--</option>
+                                                    <option value="1">Yakissoba - R$29,90</option>
+                                                    <option value="2">Carne acebolada - R$29,90</option>
+                                                    <option value="3">Yakimeshi - R$29,90</option>
+                                                </select>
+                                            </td>
+                                            <td class="qtdPedido">
+                                                <input type="number" class="form-control" id="qtdPedido-3" name="qtdPedido-3" >
+                                            </td>
+                                        </tr>
+                                    </table>
                                 </div>
                             </div>
                             <div class="control-group col-md-12">
-                                <label class="control-label">Bebidas</label>
                                 <div class="controls">
-                                    <select class="form-control" multiple >
-                                        <option>Coca-Cola 1lt - R$3,90</option>
-                                        <option>Coca-Cola 2lt - R$6,90</option>
-                                        <option>Guarana Antartica 1lt - R$3,90</option>
-                                        <option>Guarana Antartica 2lt - R$6,90</option>
-                                        <option>Suco de Laranja 1lt - R$5,90</option>
-                                    </select>
+                                    <table class="table table-bordered table-hover table-striped">
+                                        <tr>
+                                            <th style="text-align: center;">Bebidas</th>
+                                            <th style="text-align: center;">Qtd.</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <select class="form-control" id="bebida-1" name="bebida-1">
+                                                    <option value="">--Selecione--</option>
+                                                    <option value="1">Guarana Antartica 1lt - R$3,90</option>
+                                                    <option value="2">Guarana Antartica 2lt - R$6,90</option>
+                                                    <option value="3">Coca-Cola 1lt - R$3,90</option>
+                                                    <option value="4">Coca-Cola 2lt - R$6,90</option>
+                                                    <option value="5">Suco de Laranja 1lt - R$5,90</option>
+                                                </select>
+                                            </td>
+                                            <td class="qtdPedido">
+                                                <input type="number" class="form-control" id="qtdBebida-1" name="qtdBebida-1" >
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <select class="form-control" id="bebida-2" name="bebida-2">
+                                                    <option value="">--Selecione--</option>
+                                                    <option value="1">Guarana Antartica 1lt - R$3,90</option>
+                                                    <option value="2">Guarana Antartica 2lt - R$6,90</option>
+                                                    <option value="3">Coca-Cola 1lt - R$3,90</option>
+                                                    <option value="4">Coca-Cola 2lt - R$6,90</option>
+                                                    <option value="5">Suco de Laranja 1lt - R$5,90</option>
+                                                </select>
+                                            </td>
+                                            <td class="qtdPedido">
+                                                <input type="number" class="form-control" id="qtdBebida-2" name="qtdBebida-2" >
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <select class="form-control" id="bebida-3" name="bebida-3">
+                                                    <option value="">--Selecione--</option>
+                                                    <option value="1">Guarana Antartica 1lt - R$3,90</option>
+                                                    <option value="2">Guarana Antartica 2lt - R$6,90</option>
+                                                    <option value="3">Coca-Cola 1lt - R$3,90</option>
+                                                    <option value="4">Coca-Cola 2lt - R$6,90</option>
+                                                    <option value="5">Suco de Laranja 1lt - R$5,90</option>
+                                                </select>
+                                            </td>
+                                            <td class="qtdPedido">
+                                                <input type="number" class="form-control" id="qtdBebida-3" name="qtdBebida-3" >
+                                            </td>
+                                        </tr>
+                                    </table>
                                 </div>
                             </div>
                             <div class="control-group col-md-12">
